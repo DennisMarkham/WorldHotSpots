@@ -1,0 +1,20 @@
+img[usemap="#worldmapL"]
+{width: 1000px;}
+
+
+img[usemap="#worldmapS"]
+{width: 500px;}
+
+@media only screen and (max-width: 800px){
+img[usemap = "#worldmapL"]
+{
+	display:none;
+}
+}
+
+@media only screen and (min-width: 801px){
+img[usemap = "#worldmapS"]
+{
+	display:none;
+}
+}
